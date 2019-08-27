@@ -41,10 +41,10 @@ def reduce_to_total (source_array, starting_point= 0)
 end 
 
 def reduce_to_all_true (source_array)
- 
-  total = starting_point 
-  source_array.length.times {|x|
-  total += source_array[x] }
+  source_array.length.times do |x|
+  if source_array[x]== true
+    
+  
   total
 end 
 
