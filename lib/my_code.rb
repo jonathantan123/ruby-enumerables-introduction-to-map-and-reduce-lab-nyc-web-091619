@@ -33,14 +33,11 @@ def map_to_square (source_array)
 end 
 
 def reduce_to_total (source_array, starting_point)
-  if starting_point
+  starting_point
   total = starting_point 
   source_array.length.times {|x|
   total += source_array[x] }
   total
-else 
- total += source_array[x]
-end
 end 
 
 
