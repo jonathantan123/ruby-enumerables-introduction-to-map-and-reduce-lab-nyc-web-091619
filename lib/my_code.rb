@@ -40,6 +40,12 @@ def reduce_to_total (source_array, starting_point)
   total
 end 
 
+def reduce_to_total (source_array)
+  total = 0 
+source_array.length.times { |x| 
+total += source_array }
+total 
+end 
 
   
   
