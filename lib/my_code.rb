@@ -34,7 +34,7 @@ end
 
 def reduce_to_total (source_array, starting_point)
   if starting_point
-  sum = starting_point 
+  total = starting_point 
   source_array.length.times {|x|
   sum += source_array[x] }
   sum 
