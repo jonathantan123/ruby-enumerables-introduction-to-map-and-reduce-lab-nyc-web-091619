@@ -49,7 +49,11 @@ end
 
 def redeuce_to_any_true (source_array)
   source_array.length.times do |x|
-    
+    return true if source_array[x] == true
+  end 
+  return  false 
+end 
+
 
 
   
