@@ -36,11 +36,10 @@ def reduce_to_total (source_array, starting_point)
   if starting_point
   total = starting_point 
   source_array.length.times {|x|
-  sum += source_array[x] }
-  sum 
+  total += source_array[x] }
+  total
 else 
-  sum = source_array[0]
-  sum +=source_array[x]
+ total += source_array[x]
 end
 end 
 
