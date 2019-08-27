@@ -47,6 +47,9 @@ end
 return true 
 end 
 
+def redeuce_to_any_true (source_array)
+  source_array.length.times do |x|
+    
 
 
   
