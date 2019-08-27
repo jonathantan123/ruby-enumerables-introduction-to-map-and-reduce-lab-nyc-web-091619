@@ -42,10 +42,7 @@ end
 
 def reduce_to_all_true (source_array)
   source_array.length.times do |x|
-  return  source_array[x]== true
-    
-  
-  total
+  return false if source_array[x]== false 
 end 
 
 
